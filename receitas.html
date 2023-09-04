@@ -11,6 +11,17 @@
         <li><a href="index.html">Página Inicial</a></li>
     </ul>
     <hr>
+    <form>
+        <label for="nome">Nome da Receita de Ovos</label><br>
+        <input id="nome" name="nome" type="text" placeholder="Nome da Receita" required autofocus><br>
+        <label for="ingredientes">Lista de Ingredientes</label><br>
+        <textarea id="ingredientes" name="ingredientes" cols="30" rows="10" placeholder="- Ingrediente 1..." required></textarea><br>
+        <label for="preparo">Modo de Preparo</label><br>
+        <textarea id="preparo" name="preparo" cols="30" rows="10" placeholder="- Passo 1..." required></textarea><br>
+        <label for="imagem">Imagem</label>
+        <input id="imagem" name="imagem" type="file" multiple><br>
+        <input type="submit">
+    </form>
 </body>
 
 </html>
